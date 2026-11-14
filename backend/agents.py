@@ -3,7 +3,7 @@ load_dotenv()
 
 import os
 
-from schemas import ReviewResult
+from backend.schemas import ReviewResult
 
 from typing import TypedDict
 from langchain_google_genai import ChatGoogleGenerativeAI

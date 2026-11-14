@@ -1,10 +1,10 @@
 from uuid import uuid4
 
-from schemas import CodeReviewResponse, CodeReviewRequest, ResumeRequest
+from backend.schemas import CodeReviewResponse, CodeReviewRequest, ResumeRequest
 
 from fastapi import FastAPI, HTTPException, Request
 from langgraph.types import Command
-from database import lifespan
+from backend.database import lifespan
 
 app = FastAPI(
     title="AI Code Review Service",
