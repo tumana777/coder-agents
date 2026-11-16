@@ -44,7 +44,7 @@ def build_response(thread_id: str, snapshot):
 def read_root():
     return {
         "service": "AI Code Review Service",
-        "version": "0.1.0",
+        "version": "0.1.1",
         "status": "running"
     }
 
