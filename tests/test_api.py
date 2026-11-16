@@ -73,7 +73,7 @@ def test_read_root(client):
 
     assert response.json() == {
         "service": "AI Code Review Service",
-        "version": "0.1.0",
+        "version": "1.1.0",
         "status": "running"
     }
 
